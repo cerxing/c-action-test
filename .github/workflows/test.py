@@ -25,7 +25,7 @@ except Exception as e:
 # Parse output
 output = ret.stdout.decode('utf-8')
 print(output)
-output = ret.sterr.decode('utf-8')
+output = ret.stderr.decode('utf-8')
 print(output)
 
 # Check to see if the program compiled successfully
