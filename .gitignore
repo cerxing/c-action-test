@@ -1,0 +1,4 @@
+.vscode/
+*.vc.db*
+*.db-shm
+*.db-wal
